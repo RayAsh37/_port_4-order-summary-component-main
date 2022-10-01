@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e8ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* WHOLE CARD */
+main {
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 27rem;
+  box-shadow: 2rem;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+main:hover {
+  opacity: 0.9;
+}
+
+.hero-img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+/* ENTIRE WRITTEN CONTENT */
+.written-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 27rem;
+}
+
+/* ORDER SUMMARY AND DESCRIPTION */
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.description h1 {
+  font-weight: 600;
+}
+
+.description p {
+  justify-self: center;
+  padding: 0rem 4rem;
+}
+
+/* ANNUAL PRICE DIV */
+.plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f8f9fe;
+  width: 25rem;
+  border-radius: 1rem;
+  justify-content: flex-start;
+}
+
+.plan img {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.plan-price-combo {
+  align-items: baseline;
+  margin-right: 9rem;
+}
+
+.anual-plan-head {
+  font-weight: 600;
+  margin-bottom: 0rem;
+}
+
+.anual-plan-price {
+  margin-top: 0rem;
+  color: #717fa6;
+}
+
+.plan a {
+  color: #382ae1;
+  font-weight: bold;
+}
+
+.plan a:hover {
+  opacity: 0.75;
+}
+
+/* PAYMENT BUTTON */
+.payment-btn-inside {
+  border-radius: 0.75rem;
+  color: white;
+  font-weight: 600;
+  background-color: #382ae1;
+  width: 25rem;
+  height: 3rem;
+  font-size: 1rem;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.payment-btn-inside:hover {
+  opacity: 0.75;
+}
+
+/* CANCEL ORDER */
+.cancel-order-inside {
+  color: #717fa6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.75;
+}
+
+.cancel-order-inside:hover {
+  opacity: 0.75;
+}
+
+/* FOOTER */
+.attribution {
+  margin-top: 4rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
